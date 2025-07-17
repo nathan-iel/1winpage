@@ -1,0 +1,32 @@
+  /* Custom styles to complement Tailwind */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a202c; /* A deep, dark blue-gray */
+}
+.hero {
+    background:  linear-gradient(rgba(26, 32, 44, 0.8), rgba(26, 32, 44, 0.95)), url('image/hero.jpg') no-repeat center center/cover;
+    /* background-image: url(.jpg);    */
+}
+.cta-button {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(88, 101, 242, 0.4);
+}
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(88, 101, 242, 0.6);
+}
+.feature-item {
+    transition: transform 0.3s ease;
+}
+.feature-item:hover {
+    transform: scale(1.05);
+}
+.section-title {
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.ad-container {
+    border: 2px dashed #4a5568;
+    color: #a0aec0;
+}
