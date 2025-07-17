@@ -4,7 +4,7 @@
     background-color: #1a202c; /* A deep, dark blue-gray */
 }
 .hero {
-    background:  linear-gradient(rgba(26, 32, 44, 0.8), rgba(26, 32, 44, 0.95)), url('image/hero.jpg') no-repeat center center/cover;
+    background:  linear-gradient(rgba(26, 32, 44, 0.8), rgba(26, 32, 44, 0.95)), url('hero.jpg') no-repeat center center/cover;
     /* background-image: url(.jpg);    */
 }
 .cta-button {
